@@ -1,0 +1,69 @@
+/*************** Text styles ****************/
+
+.header_div{
+	background-color: black;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.header_text{
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+h3{
+	
+}
+
+.story_text{
+	color:;
+}
+
+.the_wall{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+/**************** Picture styles and sizes ****************/
+
+.ashbybart{
+	height: 300px;
+	width: 600px;
+}
+
+.berkeleyriots1{
+	height: 200px;
+	width: 450px;
+}
+
+.berkeleyriots2{
+	height: 200px;
+	width: 450px;
+}
+
+.berkeleyriots3{
+	height: 200px;
+	width: 450px;
+}
+
+.oakland_bart{
+	height: 300px;
+	width: 650px;
+}
+
+.peets{
+	height: 350px;
+	width: 550px;
+}
+
+
+
+/**************** General styles of the page itself****************/
+
+body{
+	background-color: red;
+}

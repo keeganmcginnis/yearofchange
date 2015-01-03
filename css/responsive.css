@@ -1,0 +1,219 @@
+@media screen and (max-width: 680px) and (max-width: 767px){
+
+	/*********************** Smartphone and iPhone layout ONLY!!!!!!! **************************/
+
+
+	/* General page layouts */
+	.header_text{
+		font-size: 15px;
+	}
+
+	.navbar_text{
+		font-size: 15px;
+		display: inline;
+	}
+
+	.home_header{
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	li{
+		display: inline;
+		margin-left: 0px;
+		padding: 9px;
+		padding-bottom: 0px;
+	}
+
+
+	/* Contact page layouts */
+ 
+ 	.contact_text{
+ 		font-size: 15px;
+ 	}
+
+
+    
+
+
+    /* About page layouts */
+
+    .about_text{
+    	font-size: 15px;
+    }
+
+    .ps3{
+    	width: 150px;
+    	height: 100px;
+    }
+
+    .xbox{
+    	width: 150px;
+    	height: 80px;
+    }
+
+    .apple{
+    	width: 110px;
+    	height: 100px;
+    }
+
+    .microsoft{
+    	width: 200px;
+    	height: 80px;
+    }
+
+    .linux{
+    	width: 110px;
+    	height: 100px;
+    }
+
+    .rails{
+    	width: 120px;
+    	height: 140px;
+    }
+
+    .webdesign{
+    	width: 150px;
+    	height: 100px;
+    }
+
+
+
+    /* Music page layouts */
+
+
+	.music_text{
+		font-size: 15px;
+		margin-bottom: 40px;
+	}
+
+	.song_text{
+		font-size: 15px;
+	}
+
+	.music1{
+		margin-bottom: 20px;
+	}
+
+
+
+    /* Index page layouts */
+
+
+    .home_text{
+        font-size: 15px;
+    }
+
+    .index_pic{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+@media screen and (min-width : 768px) and (max-width : 1024px){
+
+	/*********** iPad and tablet layout ONLY!!!!!!! ******************/
+
+
+	/* General page layouts */
+	.header_text{
+		font-size: 20px;
+	}
+
+	.navbar_text{
+		font-size: 20px;
+		display: inline;
+		padding: 45px;
+
+	}
+
+	.home_header{
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	li{
+		display: inline;
+		margin-left: 0px;
+		padding: 1px;
+		padding-bottom: 0px;
+	}
+
+	.navbar{
+		margin: 0px;
+	}
+
+
+	/* Contact page layouts */
+ 
+ 	.contact_text{
+ 		font-size: 17px;
+ 	}
+
+
+
+
+    /* About page layouts */
+
+    .about_text{
+    	font-size: 17px;
+    }
+
+    .ps3{
+    	width: 200px;
+    	height: 150px;
+    }
+
+    .xbox{
+    	width: 200px;
+    	height: 130px;
+    }
+
+    .apple{
+    	width: 160px;
+    	height: 150px;
+    }
+
+    .microsoft{
+    	width: 280px;
+    	height: 110px;
+    }
+
+    .linux{
+    	width: 160px;
+    	height: 150px;
+    }
+
+    .rails{
+    	width: 170px;
+    	height: 190px;
+    }
+
+    .webdesign{
+    	width: 250px;
+    	height: 150px;
+    }
+
+
+
+    /* Music page layouts */
+
+
+	.music_text{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+
+	.song_text{
+		font-size: 20px;
+	}
+
+	.music1{
+		margin-bottom: 20px;
+	}
+}
+
+
+
