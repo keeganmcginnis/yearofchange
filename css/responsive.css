@@ -18,12 +18,7 @@
 		padding-bottom: 1px;
 	}
 
-	li{
-		display: inline;
-		margin-left: 0px;
-		padding: 9px;
-		padding-bottom: 0px;
-	}
+	
 
 
 	/* Contact page layouts */
@@ -70,11 +65,13 @@
     .rails{
     	width: 120px;
     	height: 140px;
+        padding-left: 0px;
     }
 
     .webdesign{
     	width: 150px;
     	height: 100px;
+        padding-left: 0px;
     }
 
 

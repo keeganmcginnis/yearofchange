@@ -10,8 +10,8 @@
 
 	text-align: center;
 	background-color: darkred;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .header_text{
@@ -25,7 +25,7 @@ a{
 /* Music page layouts */
 
 .music1{
-	margin-bottom: 40px;
+	margin-bottom: 40px;	
 }
 
 .music_text{
@@ -33,6 +33,9 @@ a{
 	margin-bottom: px;
 }
 
+.nav{
+	
+}
 
 /******************* About page layouts ******************/
 
@@ -42,9 +45,8 @@ a{
 }
 
 .webdesign{
-	
-	margin-top: 20px;
 	height: 125px;
+	padding-left: 40px;
 }
 
 .linux{
@@ -53,6 +55,7 @@ a{
 
 .rails{
 	height: 125px;
+	padding-left: 40px;
 }
 
 .ps3{
@@ -73,8 +76,10 @@ a{
 /********************* Contact page layouts *****************/
 
 .contact_pic{
-	height: 400px;
-	width: 225px;
+	height: 200px;
+	width: 127px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
 
 }
 
@@ -88,8 +93,8 @@ a{
 }
 
 .phone_pic{
-	height: 37px;
-	width: 17px;
+	height: 40px;
+	
 }
 
 .contact_text{
@@ -97,7 +102,11 @@ a{
 }
 
 .github_link{
-	height: 125px;
+	height: 40px;
+}
+
+.linkedin_pic{
+	height: 32px;
 }
 
 /**************** Home page layouts ***********************/
