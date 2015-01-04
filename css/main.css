@@ -18,15 +18,6 @@
 	color: white;
 }
 
-
-.navbar{
-	
-	
-
-}
-
-
-
 a{
 	color: white;
 }
@@ -105,6 +96,10 @@ a{
 
 .contact_text{
 	font-size: 1.5em;
+}
+
+.github_link{
+	height: 125px;
 }
 
 /**************** Home page layouts ***********************/
