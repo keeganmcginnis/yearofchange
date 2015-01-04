@@ -21,18 +21,11 @@
 
 .navbar{
 	
-	background-color: black;
+	
 
 }
 
-li{
-	display: inline;
-	text-align: center;
-	width: 60px;
-	padding: 60px;
-	margin-left: 50px;
-	font-size: 27px;
-}
+
 
 a{
 	color: white;
@@ -46,7 +39,7 @@ a{
 
 .music_text{
 	font-size: 32px;
-	margin-bottom: 40px;
+	margin-bottom: px;
 }
 
 
