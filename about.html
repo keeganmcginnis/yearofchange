@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KTech Web Design</title>
+    <title>KTech Web Design </title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css.map" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.css.map" rel="stylesheet">
-
-    <!-- my CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
@@ -30,10 +31,11 @@
     <h3 class="header_text">Web developer, computer technician and musician.</h3>
  </div>
 
- <div class="navbar">
-   <nav class="navbar navbar-default">
+ <!--********************* Responsive navbar from Bootstrap ******************-->
+
+<div class="navbar">
+ <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -44,12 +46,21 @@
       <a class="navbar-brand" href="index.html">Home</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+
+<!-- ACTUAL navbar, that stores everything on desktop. -->
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
         <li><a href="about.html">About <span class="sr-only">(current)</span></a></li>
         <li><a href="music.html">Music</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Websites <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://bandmatez.herokuapp.com/">BandMatez</a></li>
+          </ul>
+        </li>
+      </ul>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
